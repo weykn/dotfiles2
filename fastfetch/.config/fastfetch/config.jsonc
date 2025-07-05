@@ -14,9 +14,8 @@
         "source": "~/.config/fastfetch/arch.txt",
         "padding": {
             "top": 1,
-            "right": 2,
-            "left": 0
-        },
+            "right": 2
+                },
         "color": {
             "1": "cyan"
         }
@@ -46,8 +45,8 @@
             "keyColor": "green",
         },
         {
-            "type": "shell",
-            "key": " ",
+            "type": "wm",
+            "key": " ",
             "keyColor": "green", 
         },
         {
@@ -56,8 +55,8 @@
             "keyColor": "green", 
         },
         {
-            "type": "wm",
-            "key": " ",
+            "type": "shell",
+            "key": " ",
             "keyColor": "green", 
         },
         "break",
