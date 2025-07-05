@@ -29,7 +29,8 @@
     "type": "title",
     "color": {
         "user": "cyan",
-        "host": "cyan"
+        "host": "cyan",
+        "at": "yellow"
     }
 },
 
