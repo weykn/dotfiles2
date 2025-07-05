@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#5eff00",
+          "foreground": "green",
           "properties": {
             "style": "folder"
           },
@@ -15,17 +15,11 @@
         },
         {
           "foreground": "cyan",
-          "style": "plain",
-          "template": " >",
-          "type": "text"
-        },
-        {
-          "foreground": "#5eff00",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "template": " <yellow>git(</>{{ .HEAD }}<yellow>)</>",
           "type": "git"
         },
         {
@@ -33,7 +27,14 @@
           "style": "plain",
           "template": " \uf119",
           "type": "status"
-        }
+        },
+        
+    {
+          "foreground": "cyan",
+          "style": "plain",
+          "template": " >",
+          "type": "text"
+    }
       ],
       "type": "prompt"
     }
