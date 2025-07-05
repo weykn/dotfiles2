@@ -14,6 +14,12 @@
           "type": "path"
         },
         {
+          "foreground": "cyan",
+          "style": "plain",
+          "template": " >",
+          "type": "text"
+        },
+        {
           "foreground": "#5eff00",
           "properties": {
             "branch_icon": ""
